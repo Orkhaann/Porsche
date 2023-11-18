@@ -32,7 +32,7 @@ We welcome contributions! If you'd like to contribute, please fork the repositor
 
 ## Contact
 
-Have questions or feedback? Reach out to us on the [Contact Page](link-to-contact-page).
+Have questions or feedback? Feel free to reach out to us via email at [orkhanm07@gmail.com](mailto:orkhanm07@gmail.com).
 
 ## License
 
