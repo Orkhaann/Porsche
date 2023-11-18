@@ -1,6 +1,6 @@
 # Porsche Explorer Project
 
-Welcome to the Porsche Explorer Project! 🚗✨
+Welcome to the Porsche Explorer Project!
 
 Explore the world of Porsche with our WPF-based application, where you can discover, customize, and stay updated on your favorite Porsche models.
 
