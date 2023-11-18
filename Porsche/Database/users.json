@@ -1,0 +1,22 @@
+[
+  {
+    "Salutation": "Dr",
+    "Title": "Mrs",
+    "FirstName": "Oliver",
+    "MiddleInitial": "None",
+    "LastName": "Smith",
+    "Suffix": "None",
+    "Email": "oliver@gmail.com",
+    "Password": "Oliver32@"
+  },
+  {
+    "Salutation": "Dr",
+    "Title": "Mr",
+    "FirstName": "Orkhan",
+    "MiddleInitial": "Orkhn",
+    "LastName": "Mammadli",
+    "Suffix": "None",
+    "Email": "orkhan@gmail.com",
+    "Password": "Orkhan92!"
+  }
+]
