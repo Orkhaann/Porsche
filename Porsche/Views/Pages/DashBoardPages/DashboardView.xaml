@@ -91,6 +91,8 @@
             </Grid>
 
             <Button
+                Command="{Binding ShowBuildYourTaycanPageCommand}"
+                CommandParameter="{Binding ElementName=DashBoardPage}"
                 Width="240"
                 Height="50"
                 Foreground="White"

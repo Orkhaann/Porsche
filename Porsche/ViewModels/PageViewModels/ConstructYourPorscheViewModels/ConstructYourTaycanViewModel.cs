@@ -240,7 +240,7 @@ public class ConstructYourTaycanViewModel : NotificationService
 
     private void UpdateTotalPrice()
     {
-        int totalPrice = 68300;
+        int totalPrice = 90900;
 
         totalPrice += _colorPrice * (string.IsNullOrEmpty(Color) ? 0 : 1);
         totalPrice += _wheelPrice * (string.IsNullOrEmpty(Wheel) ? 0 : 1);
