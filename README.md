@@ -19,12 +19,30 @@ Explore the world of Porsche with our WPF-based application, where you can disco
 
 - [Visual Studio](https://visualstudio.microsoft.com/) installed
 - [NuGet Package Manager](https://www.nuget.org/) for package dependencies
+- [.NET](https://dotnet.microsoft.com/en-us/download) for .net framework
 
 ### Installation
 
-1. Clone the repository: `git clone https://github.com/yourusername/porsche-explorer.git`
+### Installation
+
+1. Clone the repository: `git clone https://github.com/Orkhaann/Porsche-.git`
 2. Open the project in Visual Studio.
-3. Build and run the application.
+3. Update App Settings:
+   - Navigate to the `appsettings.json` file in the project.
+   - Modify the values in the section according to your smtp configuration.
+
+     Example `appsettings.json`:
+     ```json
+     {
+       "SmtpServer": "your.smtp.server.com",
+       "SmtpPort": 587,
+       "SmtpUsername": "your.email@gmail.com",
+       "SmtpPassword": "yourSmtpPassword",
+       "SenderEmail": "your.sender@gmail.com",
+       "RecipientEmail": "your.recipient@gmail.com"
+     }
+     ```
+4. Build and run the application in Visual Studio.
 
 ## Contributing
 
