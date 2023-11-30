@@ -22,7 +22,7 @@ Explore the world of Porsche with our WPF-based application, where you can disco
 
 ### Installation
 
-1. Clone the repository: `git clone https://github.com/yourusername/porsche-explorer.git`
+1. Clone the repository: `git clone https://github.com/Orkhaann/Porsche-.git`
 2. Open the project in Visual Studio.
 3. Build and run the application.
 
