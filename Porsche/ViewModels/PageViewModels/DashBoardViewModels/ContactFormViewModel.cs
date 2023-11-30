@@ -12,6 +12,8 @@ using System.Windows;
 using System.Windows.Input;
 using Porsche.Views.Pages;
 using System.Windows.Controls;
+using Newtonsoft.Json;
+using System.IO;
 
 namespace Porsche.ViewModels.PageViewModels.DashBoardPages;
 
@@ -222,13 +224,16 @@ public class ContactFormViewModel : NotificationService
         {
             if (IsValidInputs())
             {
-                string smtpServer = "smtp.gmail.com";
-                int smtpPort = 587;
-                string smtpUsername = "orkhanm07@gmail.com";
-                string smtpPassword = "hutedmfjjuffvcjd";
+                string jsonPath = "../../../AppSettings/appsettings.json";
+                string json = File.ReadAllText(jsonPath);
+                dynamic config = JsonConvert.DeserializeObject(json);
 
-                string senderEmail = "Porsche@gmail.com";
-                string recipientEmail = "orkhanm221@gmail.com";
+                string smtpServer = config.SmtpServer;
+                int smtpPort = config.SmtpPort;
+                string smtpUsername = config.SmtpUsername;
+                string smtpPassword = config.SmtpPassword;
+                string senderEmail = config.SenderEmail;
+                string recipientEmail = config.RecipientEmail;
 
                 string subject = Subject;
                 string body = Body;

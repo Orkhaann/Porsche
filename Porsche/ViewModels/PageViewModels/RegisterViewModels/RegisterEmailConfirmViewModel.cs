@@ -11,6 +11,8 @@ using System.Windows.Input;
 using System.Net.Mail;
 using System.Net;
 using System.Windows;
+using Newtonsoft.Json;
+using System.IO;
 
 namespace Porsche.ViewModels.PageViewModels;
 
@@ -190,14 +192,16 @@ public class RegisterEmailConfirmViewModel : NotificationService
     {
         try
         {
+            string jsonPath = "../../../AppSettings/appsettings.json";
+            string json = File.ReadAllText(jsonPath);
+            dynamic config = JsonConvert.DeserializeObject(json);
             _verificationCode = GenerateVerificationCode();
 
-            string smtpServer = "smtp.gmail.com";
-            int smtpPort = 587;
-            string smtpUsername = "orkhanm07@gmail.com";
-            string smtpPassword = "hutedmfjjuffvcjd";
-
-            string senderEmail = "Porsche@gmail.com";
+            string smtpServer = config.SmtpServer;
+            int smtpPort = config.SmtpPort;
+            string smtpUsername = config.SmtpUsername;
+            string smtpPassword = config.SmtpPassword;
+            string senderEmail = config.SenderEmail;
             string recipientEmail = Email;
 
             string subject = "Please activate your Porsche ID account";

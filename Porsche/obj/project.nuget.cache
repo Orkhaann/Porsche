@@ -1,11 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "mivW5VQzr1DMqQbYLv+NqS7vlZKiOIUvpOHTz95PaJQl2nGfm1YKjq6EBQqND3r2Nfmgi5XUX5PY/fEwQHSUbg==",
+  "dgSpecHash": "VrKEzM1MopS/iPbLajI6nlnmrYAlpfS+hlNb6PidxvQAlGv1GsoCCMIIdnxAK1vJtind5zOYunM8QR2fpjLfkQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\orkha_wpyrape\\source\\repos\\Porsche\\Porsche\\Porsche.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\orkha_wpyrape\\.nuget\\packages\\materialdesigncolors\\2.1.4\\materialdesigncolors.2.1.4.nupkg.sha512",
     "C:\\Users\\orkha_wpyrape\\.nuget\\packages\\materialdesignthemes\\4.9.0\\materialdesignthemes.4.9.0.nupkg.sha512",
+    "C:\\Users\\orkha_wpyrape\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
+    "C:\\Users\\orkha_wpyrape\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\orkha_wpyrape\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\8.0.0\\microsoft.extensions.configuration.fileextensions.8.0.0.nupkg.sha512",
+    "C:\\Users\\orkha_wpyrape\\.nuget\\packages\\microsoft.extensions.configuration.json\\8.0.0\\microsoft.extensions.configuration.json.8.0.0.nupkg.sha512",
+    "C:\\Users\\orkha_wpyrape\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\8.0.0\\microsoft.extensions.fileproviders.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\orkha_wpyrape\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\8.0.0\\microsoft.extensions.fileproviders.physical.8.0.0.nupkg.sha512",
+    "C:\\Users\\orkha_wpyrape\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\8.0.0\\microsoft.extensions.filesystemglobbing.8.0.0.nupkg.sha512",
+    "C:\\Users\\orkha_wpyrape\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\orkha_wpyrape\\.nuget\\packages\\microsoft.maps.mapcontrol.wpf\\1.0.0.3\\microsoft.maps.mapcontrol.wpf.1.0.0.3.nupkg.sha512",
     "C:\\Users\\orkha_wpyrape\\.nuget\\packages\\microsoft.netcore.platforms\\1.0.1\\microsoft.netcore.platforms.1.0.1.nupkg.sha512",
     "C:\\Users\\orkha_wpyrape\\.nuget\\packages\\microsoft.netcore.targets\\1.0.1\\microsoft.netcore.targets.1.0.1.nupkg.sha512",
@@ -16,6 +24,9 @@
     "C:\\Users\\orkha_wpyrape\\.nuget\\packages\\system.componentmodel\\4.0.1\\system.componentmodel.4.0.1.nupkg.sha512",
     "C:\\Users\\orkha_wpyrape\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512",
     "C:\\Users\\orkha_wpyrape\\.nuget\\packages\\system.runtime\\4.1.0\\system.runtime.4.1.0.nupkg.sha512",
+    "C:\\Users\\orkha_wpyrape\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\orkha_wpyrape\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
+    "C:\\Users\\orkha_wpyrape\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
     "C:\\Users\\orkha_wpyrape\\.nuget\\packages\\wpf-ui\\2.1.0\\wpf-ui.2.1.0.nupkg.sha512"
   ],
   "logs": [

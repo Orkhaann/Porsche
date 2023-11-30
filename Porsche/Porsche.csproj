@@ -655,10 +655,18 @@
 
   <ItemGroup>
     <PackageReference Include="MaterialDesignThemes" Version="4.9.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.0" />
     <PackageReference Include="Microsoft.Maps.MapControl.WPF" Version="1.0.0.3" />
     <PackageReference Include="Newtonsoft.Json" Version="6.0.1" />
     <PackageReference Include="SimpleInjector" Version="5.4.1" />
     <PackageReference Include="WPF-UI" Version="2.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="AppSettings\appsettings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
