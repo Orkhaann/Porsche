@@ -19,7 +19,7 @@ Explore the world of Porsche with our WPF-based application, where you can disco
 
 - [Visual Studio](https://visualstudio.microsoft.com/) installed
 - [NuGet Package Manager](https://www.nuget.org/) for package dependencies
-- [.NET](https://www.nuget.org/](https://dotnet.microsoft.com/en-us/download)) for .net framework
+- [.NET](https://dotnet.microsoft.com/en-us/download) for .net framework
 
 ### Installation
 
