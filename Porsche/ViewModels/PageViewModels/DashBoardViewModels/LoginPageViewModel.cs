@@ -61,7 +61,7 @@ public class LoginPageViewModel : NotificationService
 
         DB_Users.LoadDataFromJson();
 
-        User user = DB_Users.GetEmployeeByEmail(enteredEmail);
+        User user = DB_Users.GetUserByEmail(enteredEmail);
 
         if (user != null)
         {

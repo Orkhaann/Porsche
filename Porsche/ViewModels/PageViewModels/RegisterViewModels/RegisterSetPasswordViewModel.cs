@@ -187,7 +187,7 @@ public class RegisterSetPasswordViewModel : NotificationService
                 Email = _email,
                 Password = _passwordInput
             };
-            DB_Users.AddEmployee(newUser);
+            DB_Users.AddUser(newUser);
             DB_Users.SaveDataToJson();
             var goPage = App._Container?.GetInstance<DashBoardView>();
             page.NavigationService.Navigate(goPage);
